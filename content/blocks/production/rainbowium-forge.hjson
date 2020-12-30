@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Rainbowium Forge
+description: Smelts Molten Rainbowium into Bars
+health: 5000
+liquidCapacity: 500
+craftTime: 100
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  liquid: {
+    liquid: molten-rainbowium
+	amount: 3
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  rainbowium/50
+]
+category: crafting
+research: rainbowium-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: rainbowium/1

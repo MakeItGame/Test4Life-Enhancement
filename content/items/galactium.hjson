@@ -1,0 +1,7 @@
+type: material
+name: Galactium
+description: The Galaxy in your hands
+hardness: 4
+cost: 2.5
+color: 1c1969
+research: lead

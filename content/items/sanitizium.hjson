@@ -1,0 +1,7 @@
+type: material
+name: Sanitizium
+description: Shiny and a little bit strange
+hardness: 6
+cost: 2.5
+color: 00ff99
+research: lead

@@ -1,0 +1,10 @@
+name: Galactium Wall
+description: A wall made of Galactium. Very stable.
+type: Wall
+health: 5000
+size: 2
+requirements: [
+  galactium/20
+]
+category: defense
+research: titanium-wall

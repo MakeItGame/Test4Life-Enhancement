@@ -1,0 +1,10 @@
+name: Radium Wall
+description: A wall made of Radium. Very radioactive.
+type: Wall
+health: 10000
+size: 2
+requirements: [
+  radium/40
+]
+category: defense
+research: titanium-wall

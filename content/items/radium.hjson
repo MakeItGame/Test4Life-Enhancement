@@ -1,0 +1,8 @@
+type: material
+name: Radium
+description: Radioactive, pay attention to it, when touching it
+hardness: 5
+radioactivity: 1
+cost: 2.5
+color: 00ff11
+research: lead

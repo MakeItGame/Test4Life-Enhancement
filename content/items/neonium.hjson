@@ -1,0 +1,7 @@
+type: material
+name: Neonium
+description: Used to make light
+hardness: 4
+cost: 2.5
+color: f700ff
+research: lead

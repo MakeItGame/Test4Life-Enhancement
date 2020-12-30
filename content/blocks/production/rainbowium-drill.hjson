@@ -1,0 +1,25 @@
+name: Rainbowium Drill
+description: Drill using Rainbows?
+type: Drill
+size: 3
+tier: 6
+warmupSpeed: 0.1
+drillTime: 25
+rotateSpeed: 8.0
+consumes: {
+  power: 12.5
+  liquid: {
+    liquid: molten-rainbowium
+    amount: 0.3
+    booster: true
+  }
+}
+liquidBoostIntensity: 2.0
+requirements: [
+  rainbowium/10
+  silicon/40
+  graphite/20
+]
+category: production
+research: laser-drill
+idleSoundVolume: 0.01

@@ -1,0 +1,26 @@
+type: SingleTypeGenerator
+name: Sanitizium Generator
+description: Sanitizes the Mass to create Power
+size: 2
+hasPower: true
+health: 100000000
+hasItems: true
+itemCapacity: 30
+hasliquids: false
+itemDuration: 30
+powerProduction: 100000
+consumes: {
+  items: {
+    items: [
+      sanitizium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  sanitizium/50
+]
+category: power
+research: steam-generator

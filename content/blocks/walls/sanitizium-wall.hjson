@@ -1,0 +1,10 @@
+name: Sanitizium Wall
+description: A wall made of Sanitizium. Try not to get Sanitized!
+type: Wall
+health: 25000
+size: 2
+requirements: [
+  sanitizium/40
+]
+category: defense
+research: titanium-wall

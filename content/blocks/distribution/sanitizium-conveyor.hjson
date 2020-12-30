@@ -1,0 +1,14 @@
+type: Conveyor
+name: sanitizium conveyor
+description: sanitized conveyor, watch out for sanitization of the items
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  sanitizium/3
+]
+health: 4000
+itemCapacity: 15
+category: distribution
+speed: 0.28
+research: titanium-conveyor

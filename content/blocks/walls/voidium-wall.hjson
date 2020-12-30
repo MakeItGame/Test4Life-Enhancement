@@ -1,0 +1,10 @@
+name: Voidium Wall
+description: A wall made of Voidium. The Bullets disapear in the Void.
+type: Wall
+health: 50000
+size: 2
+requirements: [
+  voidium/40
+]
+category: defense
+research: titanium-wall

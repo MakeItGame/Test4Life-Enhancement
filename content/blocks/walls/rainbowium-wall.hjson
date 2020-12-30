@@ -1,0 +1,10 @@
+name: Rainbowium Wall
+description: A wall made of Rainbowium.Shiny and Colorfull.
+type: Wall
+health: 15000
+size: 2
+requirements: [
+  rainbowium/40
+]
+category: defense
+research: titanium-wall

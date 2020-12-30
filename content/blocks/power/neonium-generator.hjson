@@ -1,0 +1,26 @@
+type: SingleTypeGenerator
+name: Neonium Generator
+description: Make Energy from Neon Light
+size: 2
+hasPower: true
+health: 100000000
+hasItems: true
+itemCapacity: 30
+hasliquids: false
+itemDuration: 30
+powerProduction: 10000
+consumes: {
+  items: {
+    items: [
+      neonium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  neonium/50
+]
+category: power
+research: steam-generator

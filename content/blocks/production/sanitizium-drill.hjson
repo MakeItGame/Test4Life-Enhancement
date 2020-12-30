@@ -1,0 +1,25 @@
+name: Sanitizium Drill
+description: Sanitize the Ressources and get them out of the Ground
+type: Drill
+size: 3
+tier: 7
+warmupSpeed: 0.12
+drillTime: 10
+rotateSpeed: 9.0
+consumes: {
+  power: 15
+  liquid: {
+    liquid: molten-sanitizium
+    amount: 0.3
+    booster: true
+  }
+}
+liquidBoostIntensity: 2.0
+requirements: [
+  sanitizium/10
+  silicon/40
+  graphite/20
+]
+category: production
+research: laser-drill
+idleSoundVolume: 0.01

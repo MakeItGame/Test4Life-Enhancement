@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Radium Forge
+description: Smelts Molten Radium into Bars
+health: 5000
+liquidCapacity: 500
+craftTime: 100
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  liquid: {
+    liquid: molten-radium
+	amount: 3
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  radium/50
+]
+category: crafting
+research: radium-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: radium/1

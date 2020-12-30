@@ -1,0 +1,14 @@
+type: Conveyor
+name: radium conveyor
+description: Radioactive conveyors
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  radium/3
+]
+health: 4000
+itemCapacity: 15
+category: distribution
+speed: 0.24
+research: titanium-conveyor

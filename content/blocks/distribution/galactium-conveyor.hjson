@@ -1,0 +1,14 @@
+type: Conveyor
+name: galactium conveyor
+description: travel with lightspeed
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  galactium/3
+]
+health: 4000
+itemCapacity: 15
+category: distribution
+speed: 0.2
+research: titanium-conveyor

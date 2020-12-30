@@ -1,0 +1,10 @@
+name: Neonium Wall
+description: A wall made of Neonium. Let the Party begin".
+type: Wall
+health: 7500
+size: 2
+requirements: [
+  neonium/20
+]
+category: defense
+research: titanium-wall

@@ -1,0 +1,14 @@
+type: Conveyor
+name: neonium conveyor
+description: Travel with light without speed XD
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  neonium/3
+]
+health: 4000
+itemCapacity: 15
+category: distribution
+speed: 0.22
+research: titanium-conveyor

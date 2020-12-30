@@ -1,0 +1,25 @@
+name: Neonium Drill
+description: Drill but with Style
+type: Drill
+size: 3
+tier: 5
+warmupSpeed: 0.04
+drillTime: 75
+rotateSpeed: 6.0
+consumes: {
+  power: 7.5
+  liquid: {
+    liquid: molten-neonium
+    amount: 0.3
+    booster: true
+  }
+}
+liquidBoostIntensity: 2.0
+requirements: [
+  neonium/10
+  silicon/40
+  graphite/20
+]
+category: production
+research: laser-drill
+idleSoundVolume: 0.01

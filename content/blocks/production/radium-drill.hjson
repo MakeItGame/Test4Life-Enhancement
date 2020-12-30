@@ -1,0 +1,25 @@
+name: Radium Drill
+description: Drill using a chainreaction of atoms
+type: Drill
+size: 3
+tier: 6
+warmupSpeed: 0.08
+drillTime: 50
+rotateSpeed: 7.0
+consumes: {
+  power: 10
+  liquid: {
+    liquid: molten-radium
+    amount: 0.3
+    booster: true
+  }
+}
+liquidBoostIntensity: 2.0
+requirements: [
+  radium/10
+  silicon/40
+  graphite/20
+]
+category: production
+research: laser-drill
+idleSoundVolume: 0.01

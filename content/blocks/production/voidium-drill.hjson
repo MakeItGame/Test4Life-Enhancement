@@ -1,0 +1,25 @@
+name: Voidium Drill
+description: Use the Void to drill with completely insane power
+type: Drill
+size: 3
+tier: 8
+warmupSpeed: 1.15
+drillTime: 1
+rotateSpeed: 10.0
+consumes: {
+  power: 17.5
+  liquid: {
+    liquid: molten-voidium
+    amount: 0.3
+    booster: true
+  }
+}
+liquidBoostIntensity: 10000.0
+requirements: [
+  voidium/10
+  silicon/40
+  graphite/20
+]
+category: production
+research: laser-drill
+idleSoundVolume: 0.01

@@ -1,0 +1,26 @@
+type: SingleTypeGenerator
+name: Galactium Generator
+description: Takes Energy from a Star in the Galaxy
+size: 2
+hasPower: true
+health: 100000000
+hasItems: true
+itemCapacity: 30
+hasliquids: false
+itemDuration: 30
+powerProduction: 5000
+consumes: {
+  items: {
+    items: [
+      galactium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  galactium/50
+]
+category: power
+research: steam-generator

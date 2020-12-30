@@ -1,0 +1,26 @@
+type: SingleTypeGenerator
+name: Voidium Generator
+description: Takes Power from the pure Void
+size: 2
+hasPower: true
+health: 100000000
+hasItems: true
+itemCapacity: 30
+hasliquids: false
+itemDuration: 30
+powerProduction: 500000
+consumes: {
+  items: {
+    items: [
+      voidium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  voidium/50
+]
+category: power
+research: steam-generator

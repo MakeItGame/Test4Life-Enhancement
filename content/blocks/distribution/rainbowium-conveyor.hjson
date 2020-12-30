@@ -1,0 +1,14 @@
+type: Conveyor
+name: rainbowium conveyor
+description: Rainbow speeeed
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  rainbowium/3
+]
+health: 4000
+itemCapacity: 15
+category: distribution
+speed: 0.26
+research: titanium-conveyor

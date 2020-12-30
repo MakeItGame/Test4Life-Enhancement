@@ -1,0 +1,7 @@
+type: material
+name: Voidium
+description: The Void, but solid...?
+hardness: 7
+cost: 2.5
+color: 9000ff
+research: lead

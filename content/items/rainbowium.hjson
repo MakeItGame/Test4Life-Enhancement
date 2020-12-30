@@ -1,0 +1,7 @@
+type: material
+name: Rainbowium
+description: Now you can touch rainbows
+hardness: 5
+cost: 2.5
+color: ffffff
+research: lead

@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Galactium Crucible
+description: Makes Galactium fluid.
+itemCapacity: 50
+health: 10000
+craftTime: 100
+outputFluid: {
+  fluid: molten-galactium
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  items: {
+	items: [
+		galactium/1
+	]
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5

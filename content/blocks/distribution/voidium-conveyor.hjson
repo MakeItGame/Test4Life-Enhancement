@@ -1,0 +1,14 @@
+type: Conveyor
+name: voidium conveyor
+description: Travel througt void
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  voidium/3
+]
+health: 4000
+itemCapacity: 15
+category: distribution
+speed: 0.30
+research: titanium-conveyor

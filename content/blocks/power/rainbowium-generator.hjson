@@ -1,0 +1,26 @@
+type: SingleTypeGenerator
+name: Rainbowium Generator
+description: Produce Power with Rainbows
+size: 2
+hasPower: true
+health: 100000000
+hasItems: true
+itemCapacity: 30
+hasliquids: false
+itemDuration: 30
+powerProduction: 50000
+consumes: {
+  items: {
+    items: [
+      rainbowium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  rainbowium/50
+]
+category: power
+research: steam-generator
