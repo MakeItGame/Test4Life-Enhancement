@@ -1,0 +1,6 @@
+name: "Test4Life"
+displayName: "Test4Life Enhancement"
+author: "MakeItGame"
+description: "A Mod that enhaces your Game with [accent] new Things[] and[black] Enhancements.[]"
+version: "1.0"
+minGameVersion: "105"
